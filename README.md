@@ -36,7 +36,6 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Compreensão e aplicação de lógica booleana em consultas.
 * **Acessar Scripts:** Veja os arquivos na pasta [`consultas-avancadas-aula2/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/consultas-avancadas-aula2/sql/).
 
----
 
 #### 1.3. Apresentação dos Dados de uma Consulta ✨
 * **Propósito:** Este módulo explora técnicas essenciais para apresentar e manipular os resultados de consultas SQL, incluindo ordenação, limitação de resultados, eliminação de duplicatas e agrupamento de dados com condições.
