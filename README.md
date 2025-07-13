@@ -37,3 +37,16 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
 * **Acessar Scripts:** Veja os arquivos na pasta [`consultas-avancadas-aula2/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/consultas-avancadas-aula2/sql/).
 
 ---
+
+#### 1.3. Apresentação dos Dados de uma Consulta ✨
+* **Propósito:** Este módulo explora técnicas essenciais para apresentar e manipular os resultados de consultas SQL, incluindo ordenação, limitação de resultados, eliminação de duplicatas e agrupamento de dados com condições.
+* **Conceitos Demonstrados:**
+    * Ordenação de resultados (`ORDER BY` com `ASC`/`DESC`).
+    * Limitação do número de registros (`LIMIT`).
+    * Remoção de duplicatas (`DISTINCT`).
+    * Agrupamento de dados (`GROUP BY`).
+    * Filtragem de grupos (`HAVING`).
+    * Expressões condicionais em consultas (`CASE`).
+    * Funções de agregação (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`).
+* **Acessar Scripts:** Veja os arquivos na pasta [`apresentacao-dados-consultas/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/apresentacao-dados-consultas/sql/).
+---
