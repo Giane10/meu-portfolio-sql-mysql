@@ -10,19 +10,24 @@ Sou Giane Costa, uma entusiasta de dados, futura desenvolvedora backend. Este re
 ## Projetos
 Aqui estão os projetos e conjuntos de scripts que você encontrará neste repositório:
 
-### 1. Projeto Sucos Vendas DB 🍊
-* **Origem:** Curso de **SQL com MySQL: manipule e consulte dados** da Alura.
-* **Descrição:** Este projeto contém os scripts SQL para a criação e população completa do banco de dados `sucos_vendas`. Ele inclui a modelagem e os dados para tabelas essenciais como clientes, produtos, vendedores, notas fiscais e itens de notas fiscais.
+## Projetos
+Aqui estão os projetos e conjuntos de scripts que você encontrará neste repositório:
+
+### 1. Curso: Consultas SQL: avançando no SQL com MySQL 📊
+* **Origem:** Curso **"Aula 2 - Consultas SQL avançando no SQL com MySQL"** da Alura.
+* **Descrição Geral:** Este projeto abrangente demonstra desde a configuração inicial do ambiente de banco de dados (`sucos_vendas_db`) até a realização de consultas e filtros complexos para análise de dados. Ele engloba a base necessária para manipulação e exploração de dados no MySQL.
+
+#### 1.1. Criação do Ambiente: Sucos Vendas DB 🍊
+* **Propósito:** Scripts para a construção da estrutura completa do banco de dados `sucos_vendas_db` e a inserção dos dados iniciais. Essencial para recriar o ambiente de estudo.
 * **Conceitos Demonstrados:**
     * Criação de Banco de Dados e Tabelas (`CREATE DATABASE`, `CREATE TABLE`).
     * Definição de chaves primárias (`PRIMARY KEY`) e estrangeiras (`FOREIGN KEY`).
     * Inclusão de dados (`INSERT INTO`).
-    * Compreensão da estrutura básica de um banco de dados relacional e seus relacionamentos.
+    * Compreensão da modelagem de um banco de dados relacional.
 * **Acessar Scripts:** Veja os arquivos na pasta [`sucos-vendas-db/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/sucos-vendas-db/sql/).
 
-### 2. Consultas SQL Avançadas 📊
-* **Origem:** Curso de **Consultas SQL: avançando no SQL com MySQL** da Alura.
-* **Descrição:** Esta seção contém scripts SQL que demonstram a aplicação de filtros e operadores lógicos e de comparação para extrair dados específicos. Abrange desde consultas básicas até o uso de `LIKE` e `IN` para buscas mais complexas.
+#### 1.2. Filtragem e Consultas de Dados 🔍
+* **Propósito:** Scripts com exemplos de consultas SQL para filtrar, buscar e extrair informações específicas do banco de dados `sucos_vendas_db` usando diversos operadores e lógicas.
 * **Conceitos Demonstrados:**
     * Seleção de colunas (`SELECT`) e uso de apelidos (`AS`).
     * Filtragem de registros com `WHERE`.
@@ -30,4 +35,7 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Operadores lógicos (`AND`, `OR`, `NOT`).
     * Operador `IN` para listar múltiplos valores.
     * Operador `LIKE` e o curinga `%` para busca por padrões.
-* **Acessar Scripts:** [Link para a pasta dos scripts, ex: `[consultas-sql-avancadas/sql/](link-para-a-pasta-no-github)`]
+    * Compreensão e aplicação de lógica booleana em consultas.
+* **Acessar Scripts:** [Link para a pasta dos scripts, ex: `[consultas-avancadas-aula2/sql/](link-para-a-pasta-no-github)`]
+
+---
