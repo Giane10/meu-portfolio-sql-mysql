@@ -19,3 +19,15 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Inclusão de dados (`INSERT INTO`).
     * Compreensão da estrutura básica de um banco de dados relacional e seus relacionamentos.
 * **Acessar Scripts:** Veja os arquivos na pasta [`sucos-vendas-db/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/sucos-vendas-db/sql/).
+
+### 2. Consultas SQL Avançadas 📊
+* **Origem:** Curso de **Consultas SQL: avançando no SQL com MySQL** da Alura.
+* **Descrição:** Esta seção contém scripts SQL que demonstram a aplicação de filtros e operadores lógicos e de comparação para extrair dados específicos. Abrange desde consultas básicas até o uso de `LIKE` e `IN` para buscas mais complexas.
+* **Conceitos Demonstrados:**
+    * Seleção de colunas (`SELECT`) e uso de apelidos (`AS`).
+    * Filtragem de registros com `WHERE`.
+    * Operadores de comparação (`=`, `>`, `<`, `>=`, `<=`, `BETWEEN`).
+    * Operadores lógicos (`AND`, `OR`, `NOT`).
+    * Operador `IN` para listar múltiplos valores.
+    * Operador `LIKE` e o curinga `%` para busca por padrões.
+* **Acessar Scripts:** [Link para a pasta dos scripts, ex: `[consultas-sql-avancadas/sql/](link-para-a-pasta-no-github)`]
