@@ -7,8 +7,6 @@ Sou Giane Costa, uma entusiasta de dados, futura desenvolvedora backend. Este re
 
 **Importante:** Os projetos aqui presentes foram desenvolvidos como parte de cursos da plataforma **Alura**. Meu objetivo é demonstrar a aplicação prática dos conhecimentos e habilidades que adquiri em modelagem e manipulação de dados.
 
-## Projetos
-Aqui estão os projetos e conjuntos de scripts que você encontrará neste repositório:
 
 ## Projetos
 Aqui estão os projetos e conjuntos de scripts que você encontrará neste repositório:
