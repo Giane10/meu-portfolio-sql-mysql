@@ -34,6 +34,6 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Operador `IN` para listar múltiplos valores.
     * Operador `LIKE` e o curinga `%` para busca por padrões.
     * Compreensão e aplicação de lógica booleana em consultas.
-* **Acessar Scripts:** [Link para a pasta dos scripts, ex: `[consultas-avancadas-aula2/sql/](link-para-a-pasta-no-github)`]
+* **Acessar Scripts:** Veja os arquivos na pasta [`consultas-avancadas-aula2/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/consultas-avancadas-aula2/sql/).
 
 ---
