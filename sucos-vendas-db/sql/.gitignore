@@ -1,0 +1,13 @@
+# Arquivos temporários e de log
+*.log
+*.bak
+temp/
+
+# Dumps de banco de dados grandes (se você gerar um)
+*.sql.gz
+*.zip
+dump_completo_db.sql
+
+# Arquivos de configuração com credenciais (NÃO COLOQUE SENHAS DIRETAMENTE NO GIT!)
+*.env
+config.ini

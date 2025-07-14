@@ -1,0 +1,63 @@
+/*Chegou a hora de você seguir todos os passos realizados por mim durante esta aula. Caso já tenha feito, excelente. Se ainda não, é importante que você execute o que foi visto nos vídeos para poder continuar com a próxima aula.
+
+1) Nesta aula iremos ver exemplos de funções.
+
+2) Primeiro vimos as funções do tipo texto. Veja alguns exemplos com seus respectivos retornos:*/
+SELECT LTRIM('    OLÁ') AS RESULTADO;
+SELECT RTRIM('OLÁ     ') AS RESULTADO;
+SELECT TRIM('    OLÁ    ') AS RESULTADO;
+SELECT CONCAT('OLÁ', ' ', 'TUDO BEM','?') AS RESULTADO;
+SELECT UPPER('olá, tudo bem?') AS RESULTADO;
+SELECT LOWER('OLÁ, TUDO BEM?') AS RESULTADO;
+SELECT SUBSTRING('OLÁ, TUDO BEM?', 6) AS RESULTADO;
+SELECT SUBSTRING('OLÁ, TUDO BEM?', 6, 4) AS RESULTADO;
+SELECT CONCAT(NOME, ' (', CPF, ') ') AS RESULTADO FROM TABELA_DE_CLIENTES;
+
+#3) Temos as funções de datas. Execute os comandos abaixo:
+SELECT CURDATE();
+SELECT CURRENT_TIME();
+SELECT CURRENT_TIMESTAMP();
+SELECT YEAR(CURRENT_TIMESTAMP());
+SELECT DAY(CURRENT_TIMESTAMP());
+SELECT MONTH(CURRENT_TIMESTAMP());
+SELECT MONTHNAME(CURRENT_TIMESTAMP());
+SELECT DATEDIFF(CURRENT_TIMESTAMP(), '2019-01-01') AS RESULTADO;
+SELECT DATEDIFF(CURRENT_TIMESTAMP(), '1965-09-04') AS RESULTADO;
+
+SELECT CURRENT_TIMESTAMP() AS DIA_HOJE
+, DATE_SUB(CURRENT_TIMESTAMP(), INTERVAL 5 DAY) AS RESULTADO;
+
+SELECT DISTINCT DATA_VENDA,
+DAYNAME(DATA_VENDA) AS DIA, MONTHNAME(DATA_VENDA) AS MES
+, YEAR(DATA_VENDA) AS ANO FROM NOTAS_FISCAIS;
+
+
+#4) Alguns exemplos de funções matemáticas:
+SELECT (23+((25-2)/2)*45) AS RESULTADO;
+SELECT CEILING(12.33333232323) AS RESULTADO;
+SELECT ROUND(12.7777232323) AS RESULTADO;
+SELECT FLOOR(12.7777232323) AS RESULTADO;
+SELECT RAND() AS RESULTADO;
+
+SELECT NUMERO, QUANTIDADE, PRECO, QUANTIDADE * PRECO AS FATURAMENTO
+ FROM ITENS_NOTAS_FISCAIS;
+ 
+  SELECT NUMERO, QUANTIDADE, PRECO, ROUND(QUANTIDADE * PRECO, 2) AS FATURAMENTO
+ FROM ITENS_NOTAS_FISCAIS;
+ 
+ #5) Temos também funções de conversão. Execute os exemplos abaixo:
+ SELECT CURRENT_TIMESTAMP() AS RESULTADO;
+ SELECT CONCAT('O dia de hoje é : ', CURRENT_TIMESTAMP()) AS RESULTADO;
+ 
+ SELECT CONCAT('O dia de hoje é : ',
+
+DATE_FORMAT(CURRENT_TIMESTAMP(),'%W, %d/%m/%Y - %U') ) AS RESULTADO;
+
+SELECT SUBSTRING(CONVERT(23.3, CHAR),1,1) AS RESULTADO;
+
+/*Nesta aula, aprendemos:
+
+Algumas funções de texto;
+Funções matemáticas;
+Foi mostrado funções de datas;
+Abordamos funções de conversão.*/
