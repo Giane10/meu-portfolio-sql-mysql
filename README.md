@@ -1,6 +1,6 @@
 # Meu Portfólio de Projetos SQL e MySQL 
 
-Olá! Seja bem-vindo(a) ao meu portfólio de projetos e exercícios desenvolvidos durante meus estudos de SQL e MySQL.
+Olá! Seja bem-vindo(a) ao meu portfólio de projetos e exercícios desenvolvidos durante meus estudos de SQL e MySQL, **como parte do programa Alura ONE - Oracle Next Education**.
 
 ## Sobre Mim
 Sou Giane Costa, uma entusiasta de dados, futura desenvolvedora backend. Este repositório serve como um registro do meu progresso e das habilidades que estou desenvolvendo em bancos de dados.
