@@ -14,6 +14,7 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
 ### 1. Curso: Consultas SQL: avançando no SQL com MySQL 
 * **Origem:** Curso **"Aula 2 - Consultas SQL avançando no SQL com MySQL"** da Alura.
 * **Descrição Geral:** Este projeto abrangente demonstra desde a configuração inicial do ambiente de banco de dados (`sucos_vendas_db`) até a realização de consultas e filtros complexos para análise de dados. Ele engloba a base necessária para manipulação e exploração de dados no MySQL.
+---
 
 #### 1.1. Criação do Ambiente: Sucos Vendas DB 
 * **Propósito:** Scripts para a construção da estrutura completa do banco de dados `sucos_vendas_db` e a inserção dos dados iniciais. Essencial para recriar o ambiente de estudo.
@@ -62,7 +63,7 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
 * **Acessar Scripts:** Veja os arquivos na pasta [`juntando-tabelas-consultas/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/juntando-tabelas-consultas/sql/).
 ---
 
-#### 1.5. Funções do MySQL 💡
+#### 1.5. Funções do MySQL 
 * **Propósito:** Este módulo explora a vasta gama de funções built-in do MySQL para manipulação e formatação de dados. Ele demonstra como usar funções de string, matemática, data e conversão para transformar e processar informações diretamente nas consultas.
 * **Conceitos Demonstrados:**
     * Funções de String (`UPPER`, `LOWER`, `SUBSTRING`, `CONCAT`, `LENGTH`, `TRIM`).
@@ -73,3 +74,12 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
 * **Acessar Scripts:** Veja os arquivos na pasta [`funcoes-mysql/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/funcoes-mysql/sql/).
 ---
   
+#### 1.6. Exemplos de Relatórios 
+* **Propósito:** Esta seção demonstra a criação de relatórios a partir de dados SQL, utilizando filtros, agrupamentos e funções de agregação para extrair informações gerenciais e de análise de vendas.
+* **Conceitos Demonstrados:**
+    * Criação de relatórios de vendas válidas.
+    * Agrupamento de vendas por categorias (ex: por sabor).
+    * Uso de `GROUP BY`, `SUM`, `COUNT` para sumarização de dados.
+    * Filtragem de dados para requisitos específicos de relatório.
+* **Acessar Scripts:** Veja os arquivos na pasta [`exemplos-relatorios/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/exemplos-relatorios/sql/).
+---
