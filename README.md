@@ -37,7 +37,7 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
 * **Acessar Scripts:** Veja os arquivos na pasta [`consultas-avancadas-aula2/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/consultas-avancadas-aula2/sql/).
 
 
-#### 1.3. Apresentação dos Dados de uma Consulta ✨
+#### 1.3. Apresentação dos Dados de uma Consulta 
 * **Propósito:** Este módulo explora técnicas essenciais para apresentar e manipular os resultados de consultas SQL, incluindo ordenação, limitação de resultados, eliminação de duplicatas e agrupamento de dados com condições.
 * **Conceitos Demonstrados:**
     * Ordenação de resultados (`ORDER BY` com `ASC`/`DESC`).
@@ -48,4 +48,15 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Expressões condicionais em consultas (`CASE`).
     * Funções de agregação (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`).
 * **Acessar Scripts:** Veja os arquivos na pasta [`apresentacao-dados-consultas/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/apresentacao-dados-consultas/sql/).
+
+
+#### 1.4. Juntando Tabelas e Consultas 
+* **Propósito:** Este módulo aprofunda a capacidade de combinar dados de múltiplas tabelas e utilizar subconsultas para análises mais complexas, além de introduzir o conceito de Views para simplificar e organizar consultas.
+* **Conceitos Demonstrados:**
+    * Junções (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `CROSS JOIN`).
+    * Simulação de `FULL OUTER JOIN` com `UNION`.
+    * Combinação de resultados (`UNION`, `UNION ALL`).
+    * Subconsultas (`IN`, `EXISTS`, subconsultas no `SELECT` e `FROM`).
+    * Criação e uso de Views (`CREATE VIEW`, `SELECT FROM VIEW`).
+* **Acessar Scripts:** Veja os arquivos na pasta [`juntando-tabelas-consultas/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/juntando-tabelas-consultas/sql/).
 ---
