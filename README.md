@@ -23,6 +23,7 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Inclusão de dados (`INSERT INTO`).
     * Compreensão da modelagem de um banco de dados relacional.
 * **Acessar Scripts:** Veja os arquivos na pasta [`sucos-vendas-db/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/sucos-vendas-db/sql/).
+---
 
 #### 1.2. Filtragem e Consultas de Dados 
 * **Propósito:** Scripts com exemplos de consultas SQL para filtrar, buscar e extrair informações específicas do banco de dados `sucos_vendas_db` usando diversos operadores e lógicas.
@@ -35,7 +36,7 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Operador `LIKE` e o curinga `%` para busca por padrões.
     * Compreensão e aplicação de lógica booleana em consultas.
 * **Acessar Scripts:** Veja os arquivos na pasta [`consultas-avancadas-aula2/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/consultas-avancadas-aula2/sql/).
-
+---
 
 #### 1.3. Apresentação dos Dados de uma Consulta 
 * **Propósito:** Este módulo explora técnicas essenciais para apresentar e manipular os resultados de consultas SQL, incluindo ordenação, limitação de resultados, eliminação de duplicatas e agrupamento de dados com condições.
@@ -48,7 +49,7 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Expressões condicionais em consultas (`CASE`).
     * Funções de agregação (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`).
 * **Acessar Scripts:** Veja os arquivos na pasta [`apresentacao-dados-consultas/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/apresentacao-dados-consultas/sql/).
-
+---
 
 #### 1.4. Juntando Tabelas e Consultas 
 * **Propósito:** Este módulo aprofunda a capacidade de combinar dados de múltiplas tabelas e utilizar subconsultas para análises mais complexas, além de introduzir o conceito de Views para simplificar e organizar consultas.
@@ -60,3 +61,15 @@ Aqui estão os projetos e conjuntos de scripts que você encontrará neste repos
     * Criação e uso de Views (`CREATE VIEW`, `SELECT FROM VIEW`).
 * **Acessar Scripts:** Veja os arquivos na pasta [`juntando-tabelas-consultas/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/juntando-tabelas-consultas/sql/).
 ---
+
+#### 1.5. Funções do MySQL 💡
+* **Propósito:** Este módulo explora a vasta gama de funções built-in do MySQL para manipulação e formatação de dados. Ele demonstra como usar funções de string, matemática, data e conversão para transformar e processar informações diretamente nas consultas.
+* **Conceitos Demonstrados:**
+    * Funções de String (`UPPER`, `LOWER`, `SUBSTRING`, `CONCAT`, `LENGTH`, `TRIM`).
+    * Funções Matemáticas (`ROUND`, `CEIL`, `FLOOR`, `POWER`, `SQRT`).
+    * Funções de Data e Hora (`CURDATE`, `NOW`, `YEAR`, `MONTH`, `DAY`, `DATEDIFF`, `DATE_ADD`, `DATE_SUB`, `DATE_FORMAT`).
+    * Funções de Conversão de Dados (`CAST`, `CONVERT`).
+    * Aplicação prática de funções em diversos cenários de consulta.
+* **Acessar Scripts:** Veja os arquivos na pasta [`funcoes-mysql/sql/`](https://github.com/Giane10/meu-portfolio-sql-mysql/tree/main/funcoes-mysql/sql/).
+---
+  
